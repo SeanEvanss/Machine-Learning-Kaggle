@@ -1,0 +1,301 @@
+
+Mean AUC: 0.8795335908177929
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.03454472573214212
+feature_fraction : 0.3797454081646243
+bagging_fraction : 0.4181193142567742
+min_data_in_leaf : 106
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.879534
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.03454472573214212
+feature_fraction : 0.3797454081646243
+bagging_fraction : 0.4181193142567742
+min_data_in_leaf : 106
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.879534
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.03454472573214212
+feature_fraction : 0.3797454081646243
+bagging_fraction : 0.4181193142567742
+min_data_in_leaf : 106
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.880319
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.03454472573214212
+feature_fraction : 0.3797454081646243
+bagging_fraction : 0.4181193142567742
+min_data_in_leaf : 120
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.880319
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.03454472573214212
+feature_fraction : 0.3797454081646243
+bagging_fraction : 0.4181193142567742
+min_data_in_leaf : 120
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.884073
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.03454472573214212
+feature_fraction : 0.3797454081646243
+bagging_fraction : 0.4181193142567742
+min_data_in_leaf : 120
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.872811
+paramsused: 
+num_leaves : 494
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 33
+objective : binary
+max_depth : 6
+learning_rate : 0.16738186411589207
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 1.7722447692966574
+reg_lambda : 1.1987156815341724
+random_state : 47
+------------------------------
+Mean AUC: 0.812123
+paramsused: 
+num_leaves : 494
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 33
+objective : binary
+max_depth : 6
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 1.7722447692966574
+reg_lambda : 1.1987156815341724
+random_state : 47
+------------------------------
+Mean AUC: 0.879331
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.879331
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.884237
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.884932
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.893399
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.892722
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.875376
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
+Mean AUC: 0.894290
+paramsused: 
+num_leaves : 500
+min_child_weight : 0.008023947837732857
+feature_fraction : 0.32474760774990463
+bagging_fraction : 0.38540266135487145
+min_data_in_leaf : 150
+objective : binary
+max_depth : -1
+learning_rate : 0.006883242363721497
+boosting_type : gbdt
+bagging_seed : 11
+metric : auc
+max_bin : 255
+verbosity : -1
+reg_alpha : 0.3899927210061127
+reg_lambda : 0.6485237330340494
+random_state : 47
+------------------------------
