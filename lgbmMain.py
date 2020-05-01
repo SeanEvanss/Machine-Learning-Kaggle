@@ -46,6 +46,9 @@ for col in ['TransactionID','card4','dist2','D6','D7','D8','D9','D12','D13','D14
 
 
 print(train.shape,test.shape)
+cols=list(test.columns)
+print('USING THE FOLLOWING COLUMNS',len(cols),'FEATURES.')
+print(np.array(cols))
 
 
 ##fill NaN with -999
@@ -60,10 +63,6 @@ for col in test.columns.values.tolist():
 train['TransactionAmt'] = ( train['TransactionAmt']-train['TransactionAmt'].mean() ) / train['TransactionAmt'].std()
 test['TransactionAmt'] = ( test['TransactionAmt']-test['TransactionAmt'].mean() ) / test['TransactionAmt'].std()
 
-"""#normalize Ds
-for dcol in ['D1','D2','D3','D4','D5','D15']:
-    train[dcol]=np.floor(train.TransactionDT/86400-train[dcol])
-    test[dcol]=np.floor(train.TransactionDT/86400-train[dcol])"""
 
 
 """-----------------------------------feature engineering--------------------------------------------"""
@@ -72,7 +71,7 @@ train['IssueDate']=np.floor(train.TransactionDT/86400-train.D1)
 test['IssueDate']=np.floor(test.TransactionDT/86400-test.D1)
 ###TransactitonHour
 train['TransactionHour']=np.floor((np.mod((train.TransactionDT-86400)/3600, 24))).astype('category')
-test['TransactionHour']=np.floor((np.mod((train.TransactionDT-86400)/3600, 24))).astype('category')
+test['TransactionHour']=np.floor((np.mod((test.TransactionDT-86400)/3600, 24))).astype('category')
 
 ##Transaction Day of week
 train['Transaction_dow'] = np.floor((train['TransactionDT'] / (3600 * 24) - 1) % 7)
@@ -170,7 +169,7 @@ fe.label_encode(['card6','P_emaildomain', 'ClientID', 'P_emaildomain_C2','P_emai
                  'card1_card2','card1_card5', 'card1_dist1','card2_dist1'
                  , 'P_emaildomain_card1_dist1','M1','M2',
                  'M3','M4','M5','M6','M7','M8','M9','id_02',
-                 'id_03','id_05','id_06','id_09','id_11','id_12','id_15','id_16','id_28','id_29'.
+                 'id_03','id_05','id_06','id_09','id_11','id_12','id_15','id_16','id_28','id_29'
                     ,'id_30','id_31','id_32','id_33','id_34','id_35','id_36','id_37','id_38','DeviceType','DeviceInfo','DeviceType_DeviceInfo',
                  'ProductCD'],test)
 
@@ -280,14 +279,8 @@ print('Total training time is {}'.format(str(datetime.timedelta(seconds=time() -
 meanAuc=np.mean(aucs)
 print('Mean AUC:', meanAuc)
 
-#append mean AUC with params used to trainedResults.txt
-f = open("trainedResults.txt",'a+',encoding = 'utf-8')
-f.write('Mean AUC: %f' %meanAuc+"\n")
-f.write('paramsused: '+"\n")
-for p, v in params.items():
-    f.write(str(p) + " : "+ str(v)+"\n")
-f.write("-" *30 + "\n")
-f.close()
+#save model
+clf.save_model('lgb-model.txt')
 
 print('-' * 30)
 #plot top 50 feature importance 

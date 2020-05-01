@@ -1,10 +1,11 @@
 before you run
 **********************************************
-put train_transaction.csv, test_transaction.csv, train_identity.csv, test_identity.csv into csv folder
-
+unzip csv.zip in csv
 **********************************************
-lgbmMain: main script for model
-FeatureEncoder: encoder for feature engineering
-BayesianOptimizer: for optmizing model parameters
-lgbmsubmission.csv: submission file for kaggle
+#lgbmMain.py: main script for model#
+#FeatureEncoder.py: encoder for feature engineering#
+#BayesianOptimizer.py: for optmizing model parameters#
+#lgbmsubmission.csv: submission file for kaggle#
+#lgb-model:saved trained lgbm model file#
+#FraudExperment.py: experiment with fraud data to prove effectiveness of model#
 
